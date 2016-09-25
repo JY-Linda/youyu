@@ -1,0 +1,75 @@
+/*登录页面*/
+.header1{ width:1024px; margin:0 auto;}
+.header1 img{ margin:12px 0;}
+.content1{ background-color:#63be8f;}
+.content1 .loginbox{ width:1024px; height:605px; margin:0 auto; background:url(../images/bg_login.png) no-repeat center; position:relative;}
+.content1 .loginform{ width:385px; background-color:#fff; position:absolute; right:0px; top:110px;}
+.loginform h1{ font-size:20px; color:#666689; margin:20px 0px 0px 20px;}
+.loginform .msg1{  width:340px; height:24px; line-height:24px;border:1px solid #ffe57d;color:#666; margin:10px 0px 10px 20px;  background-color:#fff6d2; overflow:hidden;}
+.loginform .msg1 span{ width:18px; height:18px;background:url(../images/icons/icon_left_03.png) no-repeat center; float:left; margin:3px 8px; }
+.loginform .si_box{ overflow:hidden; width:340px; margin:0px 0px 20px 20px; border:1px solid #bdbdbd;}
+.loginform .si_box span{ width:38px; height:38px;  float:left; border-right:1px solid #bdbdbd; background:  #f3f3f3 url(../images/icons/icon_04.jpg) no-repeat center;}
+.loginform .si_box input{ float:left; border:none; height:20px; width:240px; margin:9px 10px;}
+.loginform .si_box  .icon{ background:  #f3f3f3 url(../images/icons/icon_05.jpg) no-repeat center;}
+.loginform .password{ margin-bottom:9px;}
+.loginform .forget_box{ width:340px; margin-left: 20px; overflow:hidden; }
+.loginform .forget_box .box1{ float:left; line-height:20px;color:#666;}
+.loginform .forget_box .box2{ float:right;line-height:20px; background:url(../images/icons/icon_06.png) no-repeat left; padding-left:25px;color:#666;}
+.loginform input.btn_submit{ width:338px;  height:33px; background-color:#e4393c; border:1px solid #cd2a2d; margin: 28px 0 28px 20px; color:#FFF; font-size:20px; letter-spacing:18px; cursor:pointer;}
+.loginform p{ margin-left:20px;}
+.loginform .com_icons{ margin:10px 0px 20px 20px; overflow:hidden; width:340px;}
+.loginform .com_icons .tencent{ float:left;width:34px; height:34px; margin:0px 10px; background:url(../images/icons/icon_03.png) no-repeat center; cursor:pointer;}
+.footer1 { color:#666;}
+.footer1 .links{ width:550px; margin:0 auto; padding:20px 0px; }
+.footer1 .links a{ padding:0px 18px;color:#666;  }
+.footer1 .ICP{ width:550px; margin:0 auto; text-align:center;}
+.footer1 img{ margin:16px auto 70px auto; }
+/* ------注册页面------*/
+.container2{ background-color:#f2f2f2;}
+.header2{ width:1028px; height:116px; margin:0 auto;}
+.header2 img{ padding:25px 0; float:left;}
+.header2 ul.tabs{ float:left; overflow:hidden;  height:41px;margin-top:74px; margin-left:86px; position:relative; top:2px;  }
+.header2 ul.tabs li{ float:left; margin: 0 4px; border:1px solid #ddd;border-bottom:none;padding-left:45px; padding-right:20px;}
+.header2 ul.tabs li.phone{background:#fff url(../images/icons/icon_01.png) no-repeat 15px 10px;  }
+.header2 ul.tabs li.email{ background:#f2f2f2 url(../images/icons/icon_02.png) no-repeat 15px 10px;}
+.header2 ul.tabs li.current{ border-top:2px solid red;}
+.header2 ul.tabs li a{ display:block; height:40px; line-height:40px; color:#666;}
+.header2 .login2{ float:right; margin:89px 110px 0px 0px;}
+.header2 .login2 a{color:#396ebe;}
+.content2{ width:1026px;height:600px; margin:0 auto; border:1px solid #ddd; border-bottom:none; background-color:#fff; }
+.reg_form_1{ margin:15px 0px 0px 90px; overflow:hidden;}
+.reg_form_1 li{ overflow:hidden; margin:30px 0px;}
+.reg_form_1 li span{ float:left; width:100px;height:40px; padding-right:15px; line-height:40px; text-align:right; font-size:14px;}
+.reg_form_1 li span em{ font-size:20px; color:#e54044; margin:0px 5px;display:inline-block;   vertical-align:middle;}
+.reg_form_1 li input{ float:left; height:34px; width:260px; border:1px solid #ccc; padding:2px;}
+.reg_form_1 li div{ float:left; height:34px; line-height:34px; text-align:center; width:104px; margin:3px 16px; border:1px solid #ddd; background-color:#f4f4f4;}
+.content2 p{ margin: 40px 0 34px 205px ;}
+.content2 p a{ color:#396ebe;}
+.content2 input[type='submit']{ width:260px; height:34px; margin: 0 0 34px 205px ; background-color:#e54044;color:#fff; font-size:14px; font-weight:bold; cursor:pointer; border:none;}
+/*------首页-------*/
+.top{  border:1px solid #ececec;}
+.top_center{ height:30px;width:1200px; margin:0 auto;}
+.top_center .ship{ float:left; width:108px; height:31px; line-height:31px; text-align:center; background-color:#fff; position:relative; bottom:0;}
+.top_center .top_bars{ float:right;}
+.top_center .top_bars li{ height:30px; line-height:30px;float:left;}
+.top_center .top_bars li a{ padding-left:18px; color:#666;}
+.top_bars li a .jt_down{ margin-left:3px;}
+.header3{ width:1200px; margin:0 auto; overflow:hidden;}
+.header3 img{ float:left; margin:20px 108px 20px 0;}
+.header3 .search{ float:left; margin:25px 0 20px 10px;} 
+.header3 .searchbox{ border:1px solid #c5131e; overflow:hidden;}
+.header3 .searchbox input{ float:left; border:none; width:415px; height:34px;}
+.header3 .searchbox span{ float:left;  width:86px; font-size:14px; font-weight:bold; cursor:pointer;line-height:34px; text-align:center; color:#fff; background-color:#c5131e;}
+.header3 .search p{ height:26px; line-height:26px;}
+.header3 .search p a{ padding:0px 10px; color:#666;}
+.header3 .search p .red{ color:red;}
+.header3 .carbox{ float:right; margin:34px 0 44px 0 ;}
+.header3 .carbox>div{ margin:0px 10px;float:left; height:30px; line-height:30px; border:1px solid #efefef;padding-left:32px;}
+.header3 .carbox a{ color:#666;}
+.header3 .carbox .myyy{  background:#f7f7f7 url(../images/icons/car_03.png) no-repeat 5px 8px;  }
+.myyy .sj_down{ margin:0 6px; color:#666;}
+.header3 .carbox .car{ float:left; background:#f7f7f7 url(../images/icons/car_06.png) no-repeat 5px 8px;}
+.car .sj_right{ margin:0 6px;}
+.sj_right{ display:inline-block; vertical-align:middle; height:10px; width:6px; background:url(../images/icons/sj_03.png) no-repeat right;}
+.sj_down{ display:inline-block; vertical-align:middle; height:6px; width:10px; background:url(../images/icons/sj_06.png) no-repeat right;}
+.jt_down{display:inline-block; width:13px; height:10px; margin:0px 10px; vertical-align:middle; background:url(../images/icons/jt_down_03.png) no-repeat right;}
